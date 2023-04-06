@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import {connect} from 'react-redux'
+import connect from '../hoc/connect'
 import {addNumber,subNumber} from '../store/modules/counter'
 class Profles extends PureComponent {
   render() {
